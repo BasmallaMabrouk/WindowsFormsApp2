@@ -34,6 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(29F, 58F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1924, 1050);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
