@@ -31,7 +31,7 @@ namespace WindowsFormsApp2
         } 
         public int SetData(string, Query)
         {
-
+            int cnt = 0;
         }
     }
 }
