@@ -209,6 +209,7 @@
             this.label2.Size = new System.Drawing.Size(242, 29);
             this.label2.TabIndex = 28;
             this.label2.Text = "Manage Employees";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // dateTimePicker3
             // 
