@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Department));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.EditBtn = new System.Windows.Forms.Button();
             this.AddBtn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -75,21 +75,21 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Employee Management System";
             // 
-            // button2
+            // EditBtn
             // 
-            this.button2.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(98, 326);
-            this.button2.Name = "button2";
-            this.button2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.button2.Size = new System.Drawing.Size(77, 45);
-            this.button2.TabIndex = 44;
-            this.button2.Text = "Update";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.EditBtn.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.EditBtn.FlatAppearance.BorderSize = 0;
+            this.EditBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EditBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.EditBtn.ForeColor = System.Drawing.Color.Black;
+            this.EditBtn.Location = new System.Drawing.Point(98, 326);
+            this.EditBtn.Name = "EditBtn";
+            this.EditBtn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.EditBtn.Size = new System.Drawing.Size(77, 45);
+            this.EditBtn.TabIndex = 44;
+            this.EditBtn.Text = "Update";
+            this.EditBtn.UseVisualStyleBackColor = false;
+            this.EditBtn.Click += new System.EventHandler(this.button2_Click);
             // 
             // AddBtn
             // 
@@ -270,7 +270,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.EditBtn);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.label2);
@@ -299,7 +299,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button EditBtn;
         private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
