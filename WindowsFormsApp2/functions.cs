@@ -31,7 +31,11 @@ namespace WindowsFormsApp2
         } 
         public int SetData(string, Query)
         {
-            int cnt = 0;
+            int cnt = 0; 
+            if(Con.State == ConnectionState.Closed)
+            {
+
+            }
         }
     }
 }
