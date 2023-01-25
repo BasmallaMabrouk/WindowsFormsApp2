@@ -28,6 +28,10 @@ namespace WindowsFormsApp2
             sda = new SqlDataAdapter(Query, ConStr); 
             sda.Fill(dt); 
             return dt;
+        } 
+        public int SetData(string, Query)
+        {
+
         }
     }
 }
