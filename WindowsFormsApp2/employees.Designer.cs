@@ -197,9 +197,10 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Teal;
-            this.panel2.Location = new System.Drawing.Point(572, 303);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 734);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 100);
+            this.panel2.Size = new System.Drawing.Size(932, 35);
             this.panel2.TabIndex = 17;
             // 
             // employees
