@@ -239,12 +239,12 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.button1.ForeColor = System.Drawing.Color.Teal;
-            this.button1.Location = new System.Drawing.Point(0, 735);
+            this.button1.Location = new System.Drawing.Point(32, 723);
             this.button1.Name = "button1";
             this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.button1.Size = new System.Drawing.Size(177, 63);
+            this.button1.Size = new System.Drawing.Size(158, 45);
             this.button1.TabIndex = 26;
-            this.button1.Text = "Login";
+            this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // employees
