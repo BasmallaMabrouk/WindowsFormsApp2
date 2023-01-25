@@ -260,7 +260,7 @@
             this.button2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.button2.Size = new System.Drawing.Size(118, 45);
             this.button2.TabIndex = 27;
-            this.button2.Text = "Add";
+            this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // employees
