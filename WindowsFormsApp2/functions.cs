@@ -38,6 +38,7 @@ namespace WindowsFormsApp2
             }
             Cmd.CommandText = Query;
             cnt = Cmd.ExecuteNonQuery();
+            return cnt;
         }
     }
 }
