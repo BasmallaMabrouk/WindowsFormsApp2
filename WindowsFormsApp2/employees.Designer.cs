@@ -30,6 +30,7 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,11 +48,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(329, 35);
+            this.label1.Location = new System.Drawing.Point(265, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(229, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Employee Management System";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(344, 138);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(51, 19);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "label2";
             // 
             // employees
             // 
@@ -59,12 +69,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Name = "employees";
             this.Text = "employees";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -72,5 +84,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
