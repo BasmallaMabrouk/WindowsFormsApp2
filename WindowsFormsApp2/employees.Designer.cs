@@ -106,9 +106,10 @@
             this.label4.ForeColor = System.Drawing.Color.Teal;
             this.label4.Location = new System.Drawing.Point(4, 229);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(135, 29);
+            this.label4.Size = new System.Drawing.Size(209, 29);
             this.label4.TabIndex = 8;
-            this.label4.Text = "User Name";
+            this.label4.Text = "Employee Gender";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox2
             // 
