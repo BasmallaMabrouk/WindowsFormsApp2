@@ -183,9 +183,9 @@
             this.label8.ForeColor = System.Drawing.Color.Teal;
             this.label8.Location = new System.Drawing.Point(4, 518);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(193, 29);
+            this.label8.Size = new System.Drawing.Size(114, 29);
             this.label8.TabIndex = 14;
-            this.label8.Text = "Employee Name";
+            this.label8.Text = "Join Date";
             // 
             // textBox6
             // 
