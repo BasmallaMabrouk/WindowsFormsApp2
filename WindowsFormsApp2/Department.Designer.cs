@@ -33,7 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.EditBtn = new System.Windows.Forms.Button();
             this.AddBtn = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.DepList = new System.Windows.Forms.GroupBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.DepNameTb = new System.Windows.Forms.TextBox();
@@ -106,15 +106,15 @@
             this.AddBtn.UseVisualStyleBackColor = false;
             this.AddBtn.Click += new System.EventHandler(this.button1_Click);
             // 
-            // groupBox1
+            // DepList
             // 
-            this.groupBox1.Location = new System.Drawing.Point(320, 380);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(531, 308);
-            this.groupBox1.TabIndex = 40;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.DepList.Location = new System.Drawing.Point(320, 380);
+            this.DepList.Name = "DepList";
+            this.DepList.Size = new System.Drawing.Size(531, 308);
+            this.DepList.TabIndex = 40;
+            this.DepList.TabStop = false;
+            this.DepList.Text = "groupBox1";
+            this.DepList.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // pictureBox2
             // 
@@ -275,7 +275,7 @@
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.DepNameTb);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.DepList);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox2);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
@@ -301,7 +301,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button EditBtn;
         private System.Windows.Forms.Button AddBtn;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox DepList;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox DepNameTb;
