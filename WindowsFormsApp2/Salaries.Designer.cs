@@ -183,9 +183,9 @@
             this.label6.ForeColor = System.Drawing.Color.Teal;
             this.label6.Location = new System.Drawing.Point(28, 384);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(144, 29);
+            this.label6.Size = new System.Drawing.Size(167, 29);
             this.label6.TabIndex = 33;
-            this.label6.Text = "Date of Birth";
+            this.label6.Text = "Salary Amount";
             // 
             // label5
             // 
