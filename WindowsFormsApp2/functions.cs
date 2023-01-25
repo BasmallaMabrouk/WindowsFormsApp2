@@ -19,7 +19,12 @@ namespace WindowsFormsApp2
             ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\AL-Ahram\Documents\EmpDp.mdf;Integrated Security=True;Connect Timeout=30";
             Con = new SqlConnection(ConStr);
             Cmd = new SqlCommand();
-            Cmd.Connection = Con;
+            Cmd.Connection = Con; 
+
+        } 
+        public DataTable GetData(string Query)
+        {
+            dt = new DataTable();
         }
     }
 }
