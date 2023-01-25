@@ -35,6 +35,10 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,12 +113,54 @@
             this.textBox2.Size = new System.Drawing.Size(227, 35);
             this.textBox2.TabIndex = 7;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Teal;
+            this.label5.Location = new System.Drawing.Point(4, 323);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(135, 29);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "User Name";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(0, 368);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(227, 35);
+            this.textBox3.TabIndex = 9;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Teal;
+            this.label6.Location = new System.Drawing.Point(4, 419);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(135, 29);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "User Name";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(0, 464);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(227, 35);
+            this.textBox4.TabIndex = 11;
+            // 
             // employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 769);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
@@ -139,5 +185,9 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox4;
     }
 }
