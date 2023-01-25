@@ -25,7 +25,8 @@ namespace WindowsFormsApp2
         public DataTable GetData(string Query)
         {
             dt = new DataTable();
-            sda = new SqlDataAdapter(Query, ConStr);
+            sda = new SqlDataAdapter(Query, ConStr); 
+            sda.Fill(dt);
         }
     }
 }
