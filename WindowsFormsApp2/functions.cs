@@ -37,6 +37,7 @@ namespace WindowsFormsApp2
                 Con.Open();
             }
             Cmd.CommandText = Query;
+            cnt = Cmd.ExecuteNonQuery();
         }
     }
 }
