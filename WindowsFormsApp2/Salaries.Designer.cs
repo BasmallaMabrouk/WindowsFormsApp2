@@ -203,11 +203,11 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Teal;
-            this.label5.Location = new System.Drawing.Point(28, 288);
+            this.label5.Location = new System.Drawing.Point(-2, 282);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(253, 29);
+            this.label5.Size = new System.Drawing.Size(84, 29);
             this.label5.TabIndex = 32;
-            this.label5.Text = "Employee Department";
+            this.label5.Text = "Periad";
             // 
             // label4
             // 
