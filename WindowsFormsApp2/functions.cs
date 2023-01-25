@@ -34,7 +34,7 @@ namespace WindowsFormsApp2
             int cnt = 0; 
             if(Con.State == ConnectionState.Closed)
             {
-
+                Con.Open();
             }
         }
     }
