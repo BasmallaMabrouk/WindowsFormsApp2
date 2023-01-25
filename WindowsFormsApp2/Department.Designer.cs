@@ -79,7 +79,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(108, 694);
+            this.button2.Location = new System.Drawing.Point(98, 694);
             this.button2.Name = "button2";
             this.button2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.button2.Size = new System.Drawing.Size(67, 45);
@@ -262,9 +262,9 @@
             this.label2.ForeColor = System.Drawing.Color.Teal;
             this.label2.Location = new System.Drawing.Point(315, 75);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(242, 29);
+            this.label2.Size = new System.Drawing.Size(256, 29);
             this.label2.TabIndex = 28;
-            this.label2.Text = "Manage Employees";
+            this.label2.Text = "Manage Department";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Department
