@@ -35,7 +35,7 @@ namespace WindowsFormsApp2
             {
                 if(DepNameTb.Text == "")
                 {
-                    MessageBox.Show("Missinf")
+                    MessageBox.Show("Missing Data");
                 }
             } 
             catch(Exception Ex) {
