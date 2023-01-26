@@ -29,7 +29,8 @@ namespace WindowsFormsApp2
             } 
             else
             {
-                key =Convert.ToInt32
+                key = Convert.ToInt32(DepList.selectedRow[0].cells[0].value.tostring()); 
+
             }
         private void ShowDepartments()
         {
