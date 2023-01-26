@@ -16,6 +16,7 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
             Con = new functions();
+            ShowDepartments();
         }
 
         private void label3_Click(object sender, EventArgs e)
