@@ -375,7 +375,7 @@
             this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.button1.Size = new System.Drawing.Size(118, 45);
             this.button1.TabIndex = 61;
-            this.button1.Text = "Update";
+            this.button1.Text = "Delete";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // employees
