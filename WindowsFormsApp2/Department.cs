@@ -23,7 +23,10 @@ namespace WindowsFormsApp2
         private void groupBox1_Enter(object sender, EventArgs e)
         {
             DepNameTb.Text = DepList.selectedRow[0].cells[1].value.tostring();
-        }
+            if (DepNameTb.Text == "")
+            { 
+
+            }
         private void ShowDepartments()
         {
             string Query = "select * from DeprartmentTl";
