@@ -46,6 +46,11 @@ namespace WindowsFormsApp2
         }
         private void ShowEmp()
         {
+            string Query = "select * from EmployeeTbl";
+            EmployeeList.DataSource = Convert.GetDate(Query);
+        }  
+        private void GetDepatment()
+        {
 
         }
         private void AddBtn_Click(object sender, EventArgs e)
