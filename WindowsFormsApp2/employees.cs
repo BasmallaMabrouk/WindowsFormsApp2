@@ -70,7 +70,8 @@ namespace WindowsFormsApp2
                     string Name =EmpNameTb.Text;
                     string Gender = GenCb.SelectedItem.Tostring();
                     string Dep = GenCb.SelectedValue.Tostring();
-                    string DOB = EmpNameTb.Text;
+                    string DOB = DOBTb.Value.Tostring();
+                    string JDate = JDate.Value.Tostring();
                     string Name = EmpNameTb.Text;
                     string Name = EmpNameTb.Text;
 
