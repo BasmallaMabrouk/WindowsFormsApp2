@@ -365,7 +365,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button1.BackColor = System.Drawing.Color.RoyalBlue;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
