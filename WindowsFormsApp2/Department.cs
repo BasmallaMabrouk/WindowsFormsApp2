@@ -10,21 +10,34 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
+    functions Con;
     public partial class Department : Form
     {
         public Department()
         {
             InitializeComponent();
+            Con = new functions();
+            ListerDepartments();
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void LesterDepartments()
         {
+            string Query = "select * from DeprartmentTl";
+            DepList.DataSource = Con.GetData(Query);
+        }
+        private void AddBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
 
+            } 
+            catch(Exception Ex) {
+                MessageBox.Show(Ex.Message);
+            }   
         }
 
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
