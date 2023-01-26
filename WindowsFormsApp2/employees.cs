@@ -80,7 +80,8 @@ namespace WindowsFormsApp2
                     ShowEmp();
                     MessageBox.Show("Emplyee Added");
                     EmpNameTb.Text = "";
-                    DailySalTb.Text = "";
+                    DailySalTb.Text = ""; 
+                    GenCb.SelectedIndex= -1;
                 }
             }
         }
