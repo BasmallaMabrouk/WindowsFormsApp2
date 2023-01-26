@@ -46,7 +46,7 @@
             this.DepCb = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.DOFTb = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.JDate = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -240,12 +240,12 @@
             this.DOFTb.TabIndex = 24;
             this.DOFTb.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // dateTimePicker2
+            // JDate
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(12, 546);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(218, 27);
-            this.dateTimePicker2.TabIndex = 25;
+            this.JDate.Location = new System.Drawing.Point(12, 546);
+            this.JDate.Name = "JDate";
+            this.JDate.Size = new System.Drawing.Size(218, 27);
+            this.JDate.TabIndex = 25;
             // 
             // button1
             // 
@@ -371,7 +371,7 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.JDate);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.DOFTb);
             this.Controls.Add(this.label11);
@@ -426,7 +426,7 @@
         private System.Windows.Forms.ComboBox DepCb;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DateTimePicker DOFTb;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker JDate;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox5;
