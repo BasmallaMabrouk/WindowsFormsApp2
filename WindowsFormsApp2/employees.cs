@@ -76,7 +76,9 @@ namespace WindowsFormsApp2
 
                     string Query = "insert into EmployeeTbl Values('{0}')";
                     Query = string(Query, DepNameTb.Text);
-                    Convert.SetDate(Query,DepNameTb.Text);
+                    Con.SetDate(Query,DepNameTb.Text);
+                    ShowDepartments();
+                    MessageBox.Show("Department Added")
                 }
             }
         }
