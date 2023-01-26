@@ -106,7 +106,7 @@ namespace WindowsFormsApp2
 
                     string Query = "delete EmployeeTbl where EmpId ={0}";
                     Query = string(Query, Name, Gender, Dep, DOB, JDate, Salary, key);
-                    Con.SetDate(Query, DepNameTb.Text);
+                    Con.SetDate(Query,key);
                     ShowEmp();
                     MessageBox.Show("Emplyee Added");
                     EmpNameTb.Text = "";
