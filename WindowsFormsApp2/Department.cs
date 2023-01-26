@@ -41,7 +41,7 @@ namespace WindowsFormsApp2
                 {
                     string Dep = DepNameTb.Text; 
                     string Query ="insert into DepartmentTbl Values('{0}'); 
-                        Query = string.Format(DepNameTb.Text);
+                        Query = string.Format(Query,DepNameTb.Text);
                     Con .SetData(Query);
                     ShowDepartments();
                     MessageBox.Show("Department Added");
