@@ -33,7 +33,10 @@ namespace WindowsFormsApp2
         {
             try
             {
-
+                if(DepNameTb.Text == "")
+                {
+                    MessageBox.Show("Missinf")
+                }
             } 
             catch(Exception Ex) {
                 MessageBox.Show(Ex.Message);
