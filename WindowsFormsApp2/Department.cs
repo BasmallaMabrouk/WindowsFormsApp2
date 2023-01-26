@@ -24,8 +24,8 @@ namespace WindowsFormsApp2
         {
             DepNameTb.Text = DepList.selectedRow[0].cells[1].value.tostring();
             if (DepNameTb.Text == "")
-            { 
-
+            {
+                key = 0;
             }
         private void ShowDepartments()
         {
