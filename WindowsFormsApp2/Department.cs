@@ -19,10 +19,10 @@ namespace WindowsFormsApp2
             Con = new functions();
             ShowDepartments();
         }
-
+        int key = 0;
         private void groupBox1_Enter(object sender, EventArgs e)
         {
-
+            DepNameTb.Text = DepList.selectedRow[0].cells[1].value.tostring();
         }
         private void ShowDepartments()
         {
@@ -52,6 +52,7 @@ namespace WindowsFormsApp2
                 MessageBox.Show(Ex.Message);
             }   
         }
+        
 
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
