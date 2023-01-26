@@ -53,6 +53,7 @@ namespace WindowsFormsApp2
         {
             string Query = "select * from DepartmentTbl";
             DepCb.DisplayMember = Convert.GetTypeCode(Query).columns["DepName"].tostring();
+            DepCb.ValueMember = Convert.GetData(Query).columns["DepId"].Tostring();
         }
         private void AddBtn_Click(object sender, EventArgs e)
         {
