@@ -75,7 +75,8 @@ namespace WindowsFormsApp2
                     int Salary = Convert.ToInt32(DailySalTb.Text);
 
                     string Query = "insert into EmployeeTbl Values('{0}')";
-                    Query =string(Query,DepNameTb.Text)
+                    Query = string(Query, DepNameTb.Text);
+                    Convert.SetDate(Query,DepNameTb.Text);
                 }
             }
         }
