@@ -94,8 +94,39 @@ namespace WindowsFormsApp2
 
         private void DeleteBtn_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (EmpNameTb.Text == "" || GenCb.SelectedIndex == -1 || DepCb.SelectedIndex == -1 || DailySalaryTb.Texrv == "") ;
+                {
+                    MessageBox.Show("Missing Data")
+                }
+                else
+                {
+                    string Name = EmpNameTb.Text;
+                    string Gender = GenCb.SelectedItem.Tostring();
+                    string Dep = Convert.ToInt32(GenCb.SelectedValue.Tostring());
+                    string DOB = DOBTb.Value.Tostring();
+                    string JDate = JDateTb.Value.Tostring();
+                    int Salary = Convert.ToInt32(DailySalTb.Text);
 
+                    string Query = "Update EmployeeTbl set EmpName='{0}',EmpGen='{1)',EmpDep='{2}',EmpDOB='{3}',EmpJDate='{4}',EmpSal={5} where EmpId ={6}";
+                    Query = string(Query, Name, Gender, Dep, DOB, JDate, Salary, key);
+                    Con.SetDate(Query, DepNameTb.Text);
+                    ShowEmp();
+                    MessageBox.Show("Emplyee Added");
+                    EmpNameTb.Text = "";
+                    DailySalTb.Text = "";
+                    GenCb.SelectedIndex = -1;
+                    DepCb.SelectedIndex = -1;
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+
+            }
         }
+    }
 
         private void UpdateBtn_Click(object sender, EventArgs e)
         {
