@@ -104,7 +104,7 @@ namespace WindowsFormsApp2
                 {
                     
 
-                    string Query = "Update EmployeeTbl set EmpName='{0}',EmpGen='{1)',EmpDep='{2}',EmpDOB='{3}',EmpJDate='{4}',EmpSal={5} where EmpId ={6}";
+                    string Query = "delete EmployeeTbl where EmpId ={0}";
                     Query = string(Query, Name, Gender, Dep, DOB, JDate, Salary, key);
                     Con.SetDate(Query, DepNameTb.Text);
                     ShowEmp();
