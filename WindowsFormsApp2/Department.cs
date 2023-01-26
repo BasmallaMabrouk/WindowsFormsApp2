@@ -29,7 +29,7 @@ namespace WindowsFormsApp2
             string Query = "select * from DeprartmentTl";
             DepList.DataSource = Con.GetData(Query);
         }
-        private void AddBtn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             try
             {
