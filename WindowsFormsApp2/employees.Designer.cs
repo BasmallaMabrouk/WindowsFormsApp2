@@ -278,6 +278,7 @@
             this.UpdateBtn.TabIndex = 27;
             this.UpdateBtn.Text = "Update";
             this.UpdateBtn.UseVisualStyleBackColor = false;
+            this.UpdateBtn.Click += new System.EventHandler(this.UpdateBtn_Click);
             // 
             // pictureBox5
             // 
@@ -377,6 +378,7 @@
             this.DeleteBtn.TabIndex = 61;
             this.DeleteBtn.Text = "Delete";
             this.DeleteBtn.UseVisualStyleBackColor = false;
+            this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
             // 
             // employees
             // 
