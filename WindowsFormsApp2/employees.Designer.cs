@@ -48,7 +48,7 @@
             this.DOFTb = new System.Windows.Forms.DateTimePicker();
             this.JDate = new System.Windows.Forms.DateTimePicker();
             this.AddBtn = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.UpdateBtn = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -262,20 +262,20 @@
             this.AddBtn.Text = "Add";
             this.AddBtn.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // UpdateBtn
             // 
-            this.button2.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(136, 696);
-            this.button2.Name = "button2";
-            this.button2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.button2.Size = new System.Drawing.Size(118, 45);
-            this.button2.TabIndex = 27;
-            this.button2.Text = "Update";
-            this.button2.UseVisualStyleBackColor = false;
+            this.UpdateBtn.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.UpdateBtn.FlatAppearance.BorderSize = 0;
+            this.UpdateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UpdateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.UpdateBtn.ForeColor = System.Drawing.Color.Black;
+            this.UpdateBtn.Location = new System.Drawing.Point(136, 696);
+            this.UpdateBtn.Name = "UpdateBtn";
+            this.UpdateBtn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.UpdateBtn.Size = new System.Drawing.Size(118, 45);
+            this.UpdateBtn.TabIndex = 27;
+            this.UpdateBtn.Text = "Update";
+            this.UpdateBtn.UseVisualStyleBackColor = false;
             // 
             // pictureBox5
             // 
@@ -368,7 +368,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(932, 839);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.label10);
@@ -429,7 +429,7 @@
         private System.Windows.Forms.DateTimePicker DOFTb;
         private System.Windows.Forms.DateTimePicker JDate;
         private System.Windows.Forms.Button AddBtn;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button UpdateBtn;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
