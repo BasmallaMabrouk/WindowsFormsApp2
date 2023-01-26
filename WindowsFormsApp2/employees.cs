@@ -108,7 +108,7 @@ namespace WindowsFormsApp2
                     Query = string(Query, Name, Gender, Dep, DOB, JDate, Salary, key);
                     Con.SetDate(Query,key);
                     ShowEmp();
-                    MessageBox.Show("Emplyee Added");
+                    MessageBox.Show("Emplyee Dleted");
                     EmpNameTb.Text = "";
                     DailySalTb.Text = "";
                     GenCb.SelectedIndex = -1;
