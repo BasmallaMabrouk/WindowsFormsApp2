@@ -71,9 +71,10 @@ namespace WindowsFormsApp2
                     string Gender = GenCb.SelectedItem.Tostring();
                     string Dep = GenCb.SelectedValue.Tostring();
                     string DOB = DOBTb.Value.Tostring();
-                    string JDate = JDate.Value.Tostring();
-                    string Name = EmpNameTb.Text;
-                    string Name = EmpNameTb.Text;
+                    string JDate = JDateTb.Value.Tostring();
+                    int Salary = Convert.ToInt32(DailySalTb.Text);
+
+                    string Query = "insert into EmployeeTbl Values('{0}')";
 
                 }
             }
