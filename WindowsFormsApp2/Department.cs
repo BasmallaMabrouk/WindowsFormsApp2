@@ -26,6 +26,10 @@ namespace WindowsFormsApp2
             if (DepNameTb.Text == "")
             {
                 key = 0;
+            } 
+            else
+            {
+                key =Convert.ToInt32
             }
         private void ShowDepartments()
         {
