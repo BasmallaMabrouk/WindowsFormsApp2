@@ -51,7 +51,7 @@ namespace WindowsFormsApp2
         }  
         private void GetDepatment()
         {
-
+            string Query = "select * from DepartmentTbl";
         }
         private void AddBtn_Click(object sender, EventArgs e)
         {
