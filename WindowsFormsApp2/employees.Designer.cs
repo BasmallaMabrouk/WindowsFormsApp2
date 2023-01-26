@@ -230,7 +230,7 @@
             this.groupBox1.Size = new System.Drawing.Size(582, 516);
             this.groupBox1.TabIndex = 23;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "EmploList";
+            this.groupBox1.Text = "EmployeeList";
             // 
             // DOFTb
             // 
@@ -261,6 +261,7 @@
             this.AddBtn.TabIndex = 26;
             this.AddBtn.Text = "Add";
             this.AddBtn.UseVisualStyleBackColor = false;
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // UpdateBtn
             // 

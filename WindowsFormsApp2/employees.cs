@@ -15,6 +15,7 @@ namespace WindowsFormsApp2
         public employees()
         {
             InitializeComponent();
+            Con = new functions();
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -38,6 +39,11 @@ namespace WindowsFormsApp2
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddBtn_Click(object sender, EventArgs e)
         {
 
         }
