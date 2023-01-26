@@ -78,7 +78,8 @@ namespace WindowsFormsApp2
                     Query = string(Query, DepNameTb.Text);
                     Con.SetDate(Query,DepNameTb.Text);
                     ShowDepartments();
-                    MessageBox.Show("Department Added")
+                    MessageBox.Show("Department Added");
+                    DepNameTb.Text = "";
                 }
             }
         }
