@@ -39,7 +39,7 @@ namespace WindowsFormsApp2
                 }
                 else
                 {
-
+                    string Dep = DepNameTb.Text;
                 }
             } 
             catch(Exception Ex) {
