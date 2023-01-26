@@ -17,14 +17,14 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
             Con = new functions();
-            ListerDepartments();
+            ShowDepartments();
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
-        private void LesterDepartments()
+        private void ShowDepartments()
         {
             string Query = "select * from DeprartmentTl";
             DepList.DataSource = Con.GetData(Query);
