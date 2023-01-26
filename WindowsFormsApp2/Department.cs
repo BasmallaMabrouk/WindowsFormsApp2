@@ -40,7 +40,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     string Dep = DepNameTb.Text; 
-                    string Query ="insert into Department"
+                    string Query ="insert into DepartmentTbl Values('{0}'); 
+                        Query = string.Format(DepNameTb.Text);
                 }
             } 
             catch(Exception Ex) {
