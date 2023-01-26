@@ -43,7 +43,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.GenCb = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.DepCb = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
@@ -211,16 +211,16 @@
             this.GenCb.Size = new System.Drawing.Size(218, 27);
             this.GenCb.TabIndex = 21;
             // 
-            // comboBox1
+            // DepCb
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.DepCb.FormattingEnabled = true;
+            this.DepCb.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.comboBox1.Location = new System.Drawing.Point(12, 364);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(218, 27);
-            this.comboBox1.TabIndex = 22;
+            this.DepCb.Location = new System.Drawing.Point(12, 364);
+            this.DepCb.Name = "DepCb";
+            this.DepCb.Size = new System.Drawing.Size(218, 27);
+            this.DepCb.TabIndex = 22;
             // 
             // groupBox1
             // 
@@ -378,7 +378,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.DepCb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.GenCb);
             this.Controls.Add(this.pictureBox2);
@@ -423,7 +423,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.ComboBox GenCb;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox DepCb;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
