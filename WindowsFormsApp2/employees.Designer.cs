@@ -47,7 +47,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.DOFTb = new System.Windows.Forms.DateTimePicker();
             this.JDate = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AddBtn = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -248,19 +248,19 @@
             this.JDate.Size = new System.Drawing.Size(218, 27);
             this.JDate.TabIndex = 25;
             // 
-            // button1
+            // AddBtn
             // 
-            this.button1.BackColor = System.Drawing.Color.Teal;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(12, 696);
-            this.button1.Name = "button1";
-            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.button1.Size = new System.Drawing.Size(118, 45);
-            this.button1.TabIndex = 26;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddBtn.BackColor = System.Drawing.Color.Teal;
+            this.AddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.AddBtn.ForeColor = System.Drawing.Color.White;
+            this.AddBtn.Location = new System.Drawing.Point(12, 696);
+            this.AddBtn.Name = "AddBtn";
+            this.AddBtn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.AddBtn.Size = new System.Drawing.Size(118, 45);
+            this.AddBtn.TabIndex = 26;
+            this.AddBtn.Text = "Add";
+            this.AddBtn.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -370,7 +370,7 @@
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.JDate);
             this.Controls.Add(this.pictureBox4);
@@ -428,7 +428,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DateTimePicker DOFTb;
         private System.Windows.Forms.DateTimePicker JDate;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label9;
