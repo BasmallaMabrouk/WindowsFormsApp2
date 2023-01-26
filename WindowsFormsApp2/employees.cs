@@ -74,12 +74,12 @@ namespace WindowsFormsApp2
                     string JDate = JDateTb.Value.Tostring();
                     int Salary = Convert.ToInt32(DailySalTb.Text);
 
-                    string Query = "insert into EmployeeTbl Values('{0}')";
-                    Query = string(Query, DepNameTb.Text);
+                    string Query = "insert into EmployeeTbl Values('{0}','{1)','{2}','{3}','{4}',{5}";
+                    Query = string(Query, Name,Gender,Dep,DOB,JDate,Salary);
                     Con.SetDate(Query,DepNameTb.Text);
-                    ShowDepartments();
-                    MessageBox.Show("Department Added");
-                    DepNameTb.Text = "";
+                    ShowEmp();
+                    MessageBox.Show("Emplyee Added");
+                    EmpNameTb.Text = "";
                 }
             }
         }
