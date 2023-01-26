@@ -44,7 +44,10 @@ namespace WindowsFormsApp2
         {
 
         }
+        private void ShowEmp()
+        {
 
+        }
         private void AddBtn_Click(object sender, EventArgs e)
         {
 
