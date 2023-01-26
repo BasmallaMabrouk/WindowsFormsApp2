@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
+    functions Con;
     public partial class employees : Form
     {
         public employees()
