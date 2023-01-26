@@ -44,6 +44,7 @@ namespace WindowsFormsApp2
                         Query = string.Format(DepNameTb.Text);
                     Con .SetData(Query);
                     ShowDepartments();
+                    MessageBox.Show("Department Added");
                 }
             } 
             catch(Exception Ex) {
