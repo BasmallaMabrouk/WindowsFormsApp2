@@ -47,13 +47,14 @@ namespace WindowsFormsApp2
         private void ShowEmp()
         {
             string Query = "select * from EmployeeTbl";
-            EmployeeList.DataSource = Convert.GetDate(Query);
+            EmployeeList.DataSource = Con.GetDate(Query);
         }  
         private void GetDepatment()
         {
             string Query = "select * from DepartmentTbl";
-            DepCb.DisplayMember = Convert.GetTypeCode(Query).columns["DepName"].tostring();
-            DepCb.ValueMember = Convert.GetData(Query).columns["DepId"].Tostring();
+            DepCb.DisplayMember = Con.GetTypeCode(Query).columns["DepName"].tostring();
+            DepCb.ValueMember = Con.GetData(Query).columns["DepId"].Tostring(); 
+            DepCb.DataSource = Con.GetDate(Query);
         }
         private void AddBtn_Click(object sender, EventArgs e)
         {
