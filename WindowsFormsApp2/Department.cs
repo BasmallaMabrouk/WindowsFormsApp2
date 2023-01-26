@@ -39,7 +39,8 @@ namespace WindowsFormsApp2
                 }
                 else
                 {
-                    string Dep = DepNameTb.Text;
+                    string Dep = DepNameTb.Text; 
+                    string Query ="insert into Department"
                 }
             } 
             catch(Exception Ex) {
